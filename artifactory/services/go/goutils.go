@@ -18,5 +18,6 @@ func CreateUrlPath(pathInArtifactory, props string, goApiUrl *string) error {
 		tempUrl = tempUrl[:len(tempUrl)-1]
 		*goApiUrl = tempUrl
 	}
+
 	return nil
 }
